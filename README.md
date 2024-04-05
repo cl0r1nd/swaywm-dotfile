@@ -11,19 +11,21 @@ This repository contains my custom configuration for a desktop environment based
 ## Installing the Catppuccin Macchiato Pink Theme
 
 To install the Catppuccin Macchiato Pink theme on Arch Linux, you can use the following command:
-```yay -S catppuccin-gtk-theme-macchiato```
+`yay -S catppuccin-gtk-theme-macchiato`
 
 ## Documentations
 
-Here you can find all the necessary applications that you need to have on your desktop before proceeding.
+Here you can find all the necessary that you need to have on your desktop before proceeding.
 
 - [Alacritty](https://github.com/alacritty/alacritty/blob/master/INSTALL.md)
 - [Cava](https://github.com/karlstav/cava)
+- [Cowsay](https://github.com/piuccio/cowsay)
 - [Flameshot](https://aur.archlinux.org/flameshot-git.git)
 - [Kitty](https://github.com/kovidgoyal/kitty/)
 - [Neofetch](https://github.com/dylanaraps/neofetch)
 - [Nvim](https://github.com/neovim/neovim/blob/master/INSTALL.md)
 - [P10K](https://github.com/romkatv/powerlevel10k)
+- [Pipes.sh](https://github.com/pipeseroni/pipes.sh)
 - [Rofi](https://github.com/davatorium/rofi/blob/next/INSTALL.md)
 - [Spicetify](https://spicetify.app/docs/advanced-usage/installation/)
 - [SwayWm](https://github.com/swaywm/sway)
@@ -44,6 +46,42 @@ cp -r .themes/* ~/.themes
 cp -r .zshrc ~
 sudo cp -r usr/share/backgrounds/sway/* /usr/share/backgrounds/sway/
 ```
+
+## Important Keyboard Shortcuts
+
+Here is a list of the most important keyboard shortcuts used in this SwayWM configuration. These shortcuts facilitate navigation and window management in your desktop environment.
+
+### Window Navigation and Management
+
+- **Launch Terminal**: `$mod+Return`
+- **Kill Focused Window**: `$mod+Shift+q`
+- **Launch Launcher**: `$mod+d`
+- **Move Focused Window**: `$mod+Shift+$left`, `$mod+Shift+$down`, `$mod+Shift+$up`, `$mod+Shift+$right`
+- **Switch Window Modes**: `$mod+Shift+space`
+- **Reload Configuration**: `$mod+Shift+c`
+- **Exit Sway**: `$mod+Shift+e`
+
+### Workspace Navigation
+
+- **Switch to Workspace**: `$mod+1`, `$mod+2`, ..., `$mod+0`
+- **Move Window to Workspace**: `$mod+Shift+1`, `$mod+Shift+2`, ..., `$mod+Shift+0`
+
+### Layout Management
+
+- **Split Window Horizontally**: `$mod+b`
+- **Split Window Vertically**: `$mod+v`
+- **Switch Layout**: `$mod+s` for stacking, `$mod+w` for tabbed, `$mod+e` for toggle split
+- **Make Focused Window Full Screen**: `$mod+f`
+
+### SwayWM Configuration
+
+- **Output Configuration**: `output * bg /usr/share/backgrounds/sway/2.png fill`
+- **Idle Configuration**: `exec swayidle -w timeout 300 'swaylock -f -c 000000' timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' before-sleep 'swaylock -f -c 000000'`
+
+### Specific Tools and Applications
+
+- **Flameshot**: `$mod+p` for screenshot
+- **Network Management**: `$mod+Shift+n` to start NetworkManager
 
 ## Screenshots
 
