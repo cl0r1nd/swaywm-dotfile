@@ -8,6 +8,16 @@ This repository contains my custom configuration for a desktop environment based
 - **GNOME**: A feature-rich user interface that provides a complete user experience.
 - **Catppuccin Macchiato Pink Theme**: A soft pastel theme with 26 attractive colors, designed to be pleasing to the eye and comfortable for everyday work.
 
+## Screenshots
+
+<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/33faeef9-a9d2-4966-80ab-75f7dc53212b"/>
+<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/43046026-eff5-4263-a644-06bbdf9400b6"/>
+<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/e9fa3dc7-8bb7-446f-8236-4d9b5ddf6d88"/>
+<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/110811db-7665-4164-a796-240c0761caba"/>
+<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/8ab899ce-5d58-446b-b329-2c3fe084861d"/>
+<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/7b682cc0-e6f1-44a8-814c-3ed100fab897"/>
+<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/7f6334c1-ee99-4b78-95a4-8a9da3ec5e64"/>
+
 ## Installing the Catppuccin Macchiato Pink Theme
 
 To install the Catppuccin Macchiato Pink theme on Arch Linux, you can use the following command:
@@ -83,15 +93,38 @@ Here is a list of the most important keyboard shortcuts used in this SwayWM conf
 - **Flameshot**: `$mod+p` for screenshot
 - **Network Management**: `$mod+Shift+n` to start NetworkManager
 
-## Screenshots
+## Important Aliases
 
-<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/33faeef9-a9d2-4966-80ab-75f7dc53212b"/>
-<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/43046026-eff5-4263-a644-06bbdf9400b6"/>
-<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/e9fa3dc7-8bb7-446f-8236-4d9b5ddf6d88"/>
-<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/110811db-7665-4164-a796-240c0761caba"/>
-<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/8ab899ce-5d58-446b-b329-2c3fe084861d"/>
-<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/7b682cc0-e6f1-44a8-814c-3ed100fab897"/>
-<img src="https://github.com/me-hpp/swaywm-dotfile/assets/122117784/7f6334c1-ee99-4b78-95a4-8a9da3ec5e64"/>
+Here is a list of the most important aliases used in this configuration. These aliases facilitate the execution of common and custom commands.
+
+### System Commands
+
+- **`ginit`**: Initializes a Git repository, creates a README.md, and a .gitignore.
+- **`update`**: Updates the system.
+
+### Git Commands
+
+- **`ginit`**: Initializes a Git repository, creates a README.md, and a .gitignore.
+
+### Arch Linux Commands
+
+- **`update`**: Updates the system.
+- **`install`**: Installs a package.
+- **`remove`**: Removes a package.
+
+### Navigation and Search Commands
+
+- **`ls`**: Lists files.
+- **`la`**: Lists files in detail.
+- **`hi`**: Shows command history.
+- **`hg`**: Searches command history.
+
+### Tools and Applications
+
+- **`vim`**: Opens the Neovim editor.
+- **`pi`**: Opens Pipes.sh.
+- **`tty`**: Opens TTY Clock.
+- **`ca`**: Opens Cava (audio visualizer).
 
 ## Related
 
