@@ -17,18 +17,18 @@ To install the Catppuccin Macchiato Pink theme on Arch Linux, you can use the fo
 
 Here you can find all the necessary applications that you need to have on your desktop before proceeding.
 
-[Alacritty] (https://github.com/alacritty/alacritty/blob/master/INSTALL.md)
-[Cava] (https://github.com/karlstav/cava)
-[Flameshot] (https://aur.archlinux.org/flameshot-git.git)
-[Kitty] (https://github.com/kovidgoyal/kitty/)
-[Neofetch] (https://github.com/dylanaraps/neofetch)
-[Nvim] (https://github.com/neovim/neovim/blob/master/INSTALL.md)
-[P10K] (https://github.com/romkatv/powerlevel10k)
-[Rofi] (https://github.com/davatorium/rofi/blob/next/INSTALL.md)
-[Spicetify] (https://spicetify.app/docs/advanced-usage/installation/)
-[SwayWm] (https://github.com/swaywm/sway)
-[Waybar] (https://github.com/Alexays/Waybar)
-[Zsh] (https://github.com/ohmyzsh/ohmyzsh)
+- [Alacritty](https://github.com/alacritty/alacritty/blob/master/INSTALL.md)
+- [Cava](https://github.com/karlstav/cava)
+- [Flameshot](https://aur.archlinux.org/flameshot-git.git)
+- [Kitty](https://github.com/kovidgoyal/kitty/)
+- [Neofetch](https://github.com/dylanaraps/neofetch)
+- [Nvim](https://github.com/neovim/neovim/blob/master/INSTALL.md)
+- [P10K](https://github.com/romkatv/powerlevel10k)
+- [Rofi](https://github.com/davatorium/rofi/blob/next/INSTALL.md)
+- [Spicetify](https://spicetify.app/docs/advanced-usage/installation/)
+- [SwayWm](https://github.com/swaywm/sway)
+- [Waybar](https://github.com/Alexays/Waybar)
+- [Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 ## Installations
 
