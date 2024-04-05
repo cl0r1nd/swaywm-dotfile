@@ -97,11 +97,6 @@ Here is a list of the most important keyboard shortcuts used in this SwayWM conf
 
 Here is a list of the most important aliases used in this configuration. These aliases facilitate the execution of common and custom commands.
 
-### System Commands
-
-- **`ginit`**: Initializes a Git repository, creates a README.md, and a .gitignore.
-- **`update`**: Updates the system.
-
 ### Git Commands
 
 - **`ginit`**: Initializes a Git repository, creates a README.md, and a .gitignore.
