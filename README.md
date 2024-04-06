@@ -129,7 +129,7 @@ Here are some related projects
 
 ## Authors
 
-- [@me-hpp](https://www.github.com/me-hpp)
+- [@cl0r1nd](https://www.github.com/cl0r1nd)
 
 ## License
 
